@@ -24,3 +24,7 @@ def deleteNS():
         raise Exception('Namespace "'+NS+'" does not exist!')
     cmds.namespace(mv=[NS,':'],f=True)
     cmds.namespace(rm=NS)
+'''
+Hello World
+
+'''
